@@ -1,0 +1,4 @@
+[submodule "test/mocha"]
+	path = test/mocha
+	url = https://github.com/zlargon/cmocha.git
+	ignore = dirty
