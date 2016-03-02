@@ -1,0 +1,12 @@
+language: c
+
+platform:
+  - linux
+  - osx
+
+compiler:
+  - clang
+  - gcc
+
+script:
+  - "make -C test"
