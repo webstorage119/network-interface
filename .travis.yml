@@ -1,12 +1,9 @@
 language: c
-
-platform:
+os:
   - linux
   - osx
-
 compiler:
   - clang
   - gcc
-
 script:
   - "make -C test"
